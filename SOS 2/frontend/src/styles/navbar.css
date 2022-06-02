@@ -1,0 +1,150 @@
+.n-container {
+    height: 200px;
+    padding: 5px 20px;
+    background-color: beige;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.n-email {
+    letter-spacing: 1.2px;
+    margin-right: 15px;
+}
+
+.n-row:first-child {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.socials img {
+    width: 20px;
+    height: auto;
+    margin: 0 10px;
+    transition: all 0.5s;
+}
+
+.socials img:hover {
+    transform: scale(1.5);
+}
+
+.n-row:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+}
+
+.icons a{
+    color: black;
+    font-size: 18px;
+}
+
+.icons span{
+    position: relative;
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+.icons span .totalItems {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -12px;
+    right: -30px;
+    background-color: #146dd3;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.items{
+    list-style-type: none;
+    background: linear-gradient(45deg, #001e28, rgb(53,53,53));
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.list {
+    margin-right: 20px;
+}
+
+.list a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: all 0.5s;
+}
+
+.list a:hover {
+    color: #5fcbec;
+}
+
+.btn {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    padding: 5px;
+    color: #000;
+    font-size: 18px;
+}
+
+@media screen and(max-width: 489px) {
+    .n-row:first-child {
+        font-size: 10px;
+    }
+    
+    .socials img {
+        width: 20px;
+        margin: 0 5px;
+    }
+
+    .logo {
+        width: 130px;
+    }
+
+    .icons a{
+        color: black;
+        font-size: 18px;
+    }
+    
+    .icons span{
+        position: relative;
+        margin: 0 15px;
+        text-transform: uppercase;
+    }
+    
+    .icons span .totalItems {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: -12px;
+        right: -30px;
+        background-color: #5fcbec;
+        color: #ffffff;
+        width: 20px;
+        height: 20px;
+        border-radius: 4px;
+    }
+
+    .list a {
+        font-size: 16px;
+    }
+
+    .list:last-child {
+        margin-right: unset;
+    }
+}
