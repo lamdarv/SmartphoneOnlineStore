@@ -38,7 +38,7 @@ export const category = [
 
 export const products = [
         {
-            _id: 1,
+            _id: '629c5d236a037a264dc7ad7e',
             title: "Samsung Galaxy M53 5G",
             slug: 'product1',
             OS: "OS: Android 12, One UI 4.1",
@@ -60,7 +60,7 @@ export const products = [
             price: "6399000", 
         },
         {
-            _id: 2,
+            _id: '629c5d236a037a264dc7ad7f',
             title: "Samsung Galaxy M52 5G",
             slug: 'product2',
             OS: "OS: Android 12, One UI 4.1",
@@ -82,7 +82,7 @@ export const products = [
             price: "5490000",
         },
         {
-            _id: 3,
+            _id: '629c5d236a037a264dc7ad80',
             title: "Apple iPhone SE",
             slug: 'product3',
             OS: "OS: iOS 15.4",
@@ -104,7 +104,7 @@ export const products = [
             price: "7399000", 
         },
         {
-            _id: 4,
+            _id: '629c5d236a037a264dc7ad81',
             title: "Apple iPhone XR",
             slug: 'product4',
             OS: "OS: iOS 12, upgradable to iOS 15.4.1",
@@ -126,7 +126,7 @@ export const products = [
             price: "7599000", 
         },
         {
-            _id: 5,
+            _id: '629c5d236a037a264dc7ad82',
             title: "Oppo Find X3 Pro",
             slug: 'product5',
             OS: "OS: Android 11, upgradable to Android 12, ColorOS 12",
@@ -148,7 +148,7 @@ export const products = [
             price: "16099000", 
         },
         {
-            _id: 6,
+            _id: '629c5d236a037a264dc7ad83',
             title: "Oppo A16e",
             slug: 'product6',
             OS: "OS: Android 11, upgradable to Android 12, ColorOS 12",
@@ -170,7 +170,7 @@ export const products = [
             price: "16099000", 
         },
         {
-            _id: 7,
+            _id: '629c5d236a037a264dc7ad84',
             title: "Vivo T1 5G",
             slug: 'product7',
             OS: "OS: Android 11, Funtouch 12",
@@ -192,6 +192,7 @@ export const products = [
             price: "3499000", 
         },
         {
+            _id: '629c5d236a037a264dc7ad85',
             title: "Vivo V15",
             slug: 'product8',
             OS: "OS: Android 9.0 (Pie), Funtouch 9",

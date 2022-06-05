@@ -1,37 +1,37 @@
 const data = {
     sliderItems: [
         {
-            _id: 1,
+            //_id: 1,
             image: "/images/slider/1.jpg"
         },
         {
-            _id: 2,
+            //_id: 2,
             image: "/images/slider/2.jpg"
         },
         {
-            _id: 3,
+            //_id: 3,
             image: "/images/slider/3.jpg"
         }
     ],
 
     category: [
         {
-            _id: 1,
+            //_id: 1,
             title: "Samsung",
             image:"/images/merk/samsung.png"
         },
         {
-            _id: 2,
+            //_id: 2,
             title: "Apple",
             image:"/images/merk/iphone.png"
         },
         {
-            _id: 3,
+            //_id: 3,
             title: "Vivo",
             image:"/images/merk/vivo.png"
         },
         {
-            _id: 4,
+            //_id: 4,
             title: "Oppo",
             image:"/images/merk/oppo.png"
         }
@@ -39,7 +39,7 @@ const data = {
 
     products: [
         {
-            _id: 1,
+            //_id: 1,
             title: "Samsung Galaxy M53 5G",
             slug: 'product1',
             OS: "OS: Android 12, One UI 4.1",
@@ -61,7 +61,7 @@ const data = {
             price: "6399000", 
         },
         {
-            _id: 2,
+            //_id: 2,
             title: "Samsung Galaxy M52 5G",
             slug: 'product2',
             OS: "OS: Android 12, One UI 4.1",
@@ -83,7 +83,7 @@ const data = {
             price: "5490000",
         },
         {
-            _id: 3,
+            //_id: 3,
             title: "Apple iPhone SE",
             slug: 'product3',
             OS: "OS: iOS 15.4",
@@ -105,7 +105,7 @@ const data = {
             price: "7399000", 
         },
         {
-            _id: 4,
+            //_id: 4,
             title: "Apple iPhone XR",
             slug: 'product4',
             OS: "OS: iOS 12, upgradable to iOS 15.4.1",
@@ -127,7 +127,7 @@ const data = {
             price: "7599000", 
         },
         {
-            _id: 5,
+            //_id: 5,
             title: "Oppo Find X3 Pro",
             slug: 'product5',
             OS: "OS: Android 11, upgradable to Android 12, ColorOS 12",
@@ -149,7 +149,7 @@ const data = {
             price: "16099000", 
         },
         {
-            _id: 6,
+            //_id: 6,
             title: "Oppo A16e",
             slug: 'product6',
             OS: "OS: Android 11, upgradable to Android 12, ColorOS 12",
@@ -171,7 +171,7 @@ const data = {
             price: "16099000", 
         },
         {
-            _id: 7,
+            //_id: 7,
             title: "Vivo T1 5G",
             slug: 'product7',
             OS: "OS: Android 11, Funtouch 12",
@@ -193,6 +193,7 @@ const data = {
             price: "3499000", 
         },
         {
+            //_id: 8,
             title: "Vivo V15",
             slug: 'product8',
             OS: "OS: Android 9.0 (Pie), Funtouch 9",
