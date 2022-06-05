@@ -29,10 +29,9 @@ const Navbar = () => {
           </div>
           <div className="n-col">
                 <div className="socials">
-                    <a href="/"><img src="/images/socials/facebook.png" alt="" /></a>
-                    <a href="/"><img src="/images/socials/instagram.png" alt="" /></a>
-                    <a href="/"><img src="/images/socials/twitter.png" alt="" /></a>
-                    <a href="/"><img src="/images/socials/youtube.png" alt="" /></a>
+                    <a href="https://www.instagram.com/lam_darv/"><img src="/images/socials/instagram.png" alt="" /></a>
+                    <a href="https://www.instagram.com/fiobrlna/"><img src="/images/socials/instagram.png" alt="" /></a>
+                    <a href="https://www.instagram.com/haunanisaa/"><img src="/images/socials/instagram.png" alt="" /></a>
                 </div>
           </div>
       </div>

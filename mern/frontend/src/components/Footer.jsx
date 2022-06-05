@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import "../styles/footer.css"
 
 const Footer = () => {
+
   return (
     <div className='f-container'>
         <div className="f-row">
@@ -28,16 +29,16 @@ const Footer = () => {
             <h2>Brands</h2>
             <ul>
               <li>
-                <NavLink to="/shop">Apple</NavLink>
+                <NavLink to="/product/product3">Apple</NavLink>
               </li>
               <li>
-                <NavLink to="/shop">Oppo</NavLink>
+                <NavLink to="/product/product5">Oppo</NavLink>
               </li>
               <li>
-                <NavLink to="/shop">Samsung</NavLink>
+                <NavLink to="/product/product1">Samsung</NavLink>
               </li>
               <li>
-                <NavLink to="/">Vivo</NavLink>
+                <NavLink to="/product/product7">Vivo</NavLink>
               </li>
             </ul>
           </div>
