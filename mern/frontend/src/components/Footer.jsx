@@ -28,13 +28,13 @@ const Footer = () => {
             <h2>Brands</h2>
             <ul>
               <li>
-                <NavLink to="/">Apple</NavLink>
+                <NavLink to="/shop">Apple</NavLink>
               </li>
               <li>
-                <NavLink to="/">Oppo</NavLink>
+                <NavLink to="/shop">Oppo</NavLink>
               </li>
               <li>
-                <NavLink to="/">Samsung</NavLink>
+                <NavLink to="/shop">Samsung</NavLink>
               </li>
               <li>
                 <NavLink to="/">Vivo</NavLink>
@@ -44,10 +44,9 @@ const Footer = () => {
           <div className="f-col">
             <h2>Stay in touch with us</h2>
             <div className="socials">
-                <a href="/"><img src="/images/socials/facebook.png" alt="" /></a>
-                <a href="/"><img src="/images/socials/instagram.png" alt="" /></a>
-                <a href="/"><img src="/images/socials/twitter.png" alt="" /></a>
-                <a href="/"><img src="/images/socials/youtube.png" alt="" /></a>
+                <a href="https://www.instagram.com/lam_darv/"><img src="/images/socials/instagram.png" alt="" /></a>
+                <a href="https://www.instagram.com/fiobrlna/"><img src="/images/socials/instagram.png" alt="" /></a>
+                <a href="https://www.instagram.com/haunanisaa/"><img src="/images/socials/instagram.png" alt="" /></a>
             </div>
           </div>
         </div>

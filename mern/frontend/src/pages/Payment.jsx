@@ -15,7 +15,7 @@ const Payment = () => {
     } = state;
 
     const [paymentMethodName, setPaymentMethod] = useState(
-        paymentMethod || 'Cash'
+        paymentMethod || 'Cash on Delivery'
       );
 
     useEffect(() => {
@@ -48,8 +48,8 @@ const Payment = () => {
                     <div className="payment-col">
                         <form onSubmit={submitHandler}>
                             <div className="form-group">
-                                <label htmlFor="cash">Cash</label>
-                                <input type="radio" value="Cash" checked={paymentMethodName === 'Cash'} className='radio' name="" id="cash" onChange={(e) => setPaymentMethod(e.target.value)} />
+                                <label htmlFor="cash">Cash on Delivery</label>
+                                <input type="radio" value="Cash on Delivery" checked={paymentMethodName === 'Cash on Delivery'} className='radio' name="" id="cash" onChange={(e) => setPaymentMethod(e.target.value)} />
                             </div>
                             <div className="form-group">
                                 <button type="submit">Continue</button>

@@ -65,6 +65,7 @@ const ProductsShop = () => {
               <button className="shop-btn" onClick={() => filterResult(item.title)}>{item.title} <FontAwesomeIcon icon={faChevronRight} /></button>
           ))}
         </div>
+        
         <div className="shop-col">
           <div className="shop-products">
             {displayProducts}

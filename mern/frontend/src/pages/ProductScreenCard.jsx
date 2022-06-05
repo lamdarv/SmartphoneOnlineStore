@@ -85,7 +85,7 @@ const ProductScreenCard = ({product}) => {
                     </div>
                     <div className="second-div div">
                         <span className="price">Price: IDR {product.price}</span>
-                        <div className="quantity">Quantity: 1</div>
+                        <div className="quantity">Stock: {product.countInStock}  </div>
                     </div>
                     <div className="third-div div">
                         <p className="desc">{product.OS}</p>
