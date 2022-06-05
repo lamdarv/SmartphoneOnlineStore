@@ -58,7 +58,7 @@ const productSchema = new mongoose.Schema(
   // save model to database
   product1.save(function (err, product) {
     if (err) return console.error(err);
-    console.log(product.name + " saved to products collection.");
+    console.log(product.title + " saved to products collection.");
   });
 
   var product2 = new Product(
@@ -88,7 +88,7 @@ const productSchema = new mongoose.Schema(
   // save model to database
   product2.save(function (err, product) {
     if (err) return console.error(err);
-    console.log(product.name + " saved to products collection.");
+    console.log(product.title + " saved to products collection.");
   }); 
 
   //Apple
@@ -119,7 +119,7 @@ const productSchema = new mongoose.Schema(
   // save model to database
   product3.save(function (err, product) {
     if (err) return console.error(err);
-    console.log(product.name + " saved to products collection.");
+    console.log(product.title + " saved to products collection.");
   });
 
   var product4 = new Product(
@@ -149,7 +149,7 @@ const productSchema = new mongoose.Schema(
   // save model to database
   product4.save(function (err, product) {
     if (err) return console.error(err);
-    console.log(product.name + " saved to products collection.");
+    console.log(product.title + " saved to products collection.");
   });
 
   //Oppo
@@ -180,7 +180,7 @@ const productSchema = new mongoose.Schema(
   // save model to database
   product5.save(function (err, product) {
     if (err) return console.error(err);
-    console.log(product.name + " saved to products collection.");
+    console.log(product.title + " saved to products collection.");
   });
 
   var product6 = new Product(
@@ -210,7 +210,7 @@ const productSchema = new mongoose.Schema(
   // save model to database
   product6.save(function (err, product) {
     if (err) return console.error(err);
-    console.log(product.name + " saved to products collection.");
+    console.log(product.title + " saved to products collection.");
   });
 
   //Vivo
@@ -241,7 +241,7 @@ const productSchema = new mongoose.Schema(
   // save model to database
   product7.save(function (err, product) {
     if (err) return console.error(err);
-    console.log(product.name + " saved to products collection.");
+    console.log(product.title + " saved to products collection.");
   });
 
   var product8 = new Product(
@@ -271,7 +271,7 @@ const productSchema = new mongoose.Schema(
   // save model to database
   product8.save(function (err, product) {
     if (err) return console.error(err);
-    console.log(product.name + " saved to products collection.");
+    console.log(product.title + " saved to products collection.");
   });
 
   export default Product;

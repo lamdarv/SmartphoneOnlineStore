@@ -16,18 +16,23 @@ export const sliderItems = [
 export const category = [
     {
         _id: 1,
-        title: "Men",
-        image: "/images/category/men.jpg"
-    }, 
+        title: "Samsung",
+        image:"/images/merk/samsung.png"
+    },
     {
         _id: 2,
-        title: "Women",
-        image: "/images/category/women.jpg"
+        title: "Apple",
+        image:"/images/merk/iphone.png"
     },
     {
         _id: 3,
-        title: "Kids",
-        image: "/images/category/kids.jpg"
+        title: "Vivo",
+        image:"/images/merk/vivo.png"
+    },
+    {
+        _id: 4,
+        title: "Oppo",
+        image:"/images/merk/oppo.png"
     }
 ];
 
