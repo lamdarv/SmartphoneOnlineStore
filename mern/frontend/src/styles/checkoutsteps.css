@@ -10,8 +10,8 @@
 }
 
 .checkout-steps > p.active {
-    border-bottom: 0.2rem solid #3bd6dcf3;
-    color: #3bd6dcf3;
+    border-bottom: 0.2rem solid #047e82;
+    color: #047e82;
 }
 
 @media screen and (max-width: 600px) {

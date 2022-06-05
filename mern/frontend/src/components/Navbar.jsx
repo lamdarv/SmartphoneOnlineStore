@@ -56,7 +56,6 @@ const Navbar = () => {
                   <li className="list"><NavLink to="/" activeClassName="active">Home</NavLink></li>
                   <li className="list"><NavLink to="/shop" activeClassName="active">Shop</NavLink></li>
                   <li className="list"><NavLink to="/about" activeClassName="active">About</NavLink></li>
-                  <li className="list"><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
               </ul>
               <button className='btn'>BTN</button>
           </nav>

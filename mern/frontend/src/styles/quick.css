@@ -132,14 +132,14 @@ button:active {
 
 .back {
     padding: 5px 25px;
-    background-color: #000000;
-    color: #ffffff;
-    letter-spacing: 1.2px;
+    background-color: #00000000;
+    color: #000000;
+    letter-spacing: none;
     text-transform: uppercase;
     text-decoration: none;
     transition: all 0.5s;
-    margin-top: -510px;
-    margin-left: -20px;
+    margin-top: -525px;
+    margin-left: -30px;   
 }
 
 .back:hover {

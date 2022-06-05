@@ -1,3 +1,5 @@
+import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import axios from 'axios'
 import React, { useContext, useState } from 'react'
 import { Store } from '../Store';
@@ -89,7 +91,7 @@ const Quick = ({item}) => {
                 </div>
             </div>
         </div>
-        <button className='back'  onClick={changeStyle}>Close</button>
+        <button className='back'><FontAwesomeIcon icon={faCircleXmark} onClick={changeStyle} /></button>
     </div>
     )
 }

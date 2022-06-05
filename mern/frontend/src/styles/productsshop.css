@@ -40,7 +40,7 @@
 }
 
 .shop-btn:hover svg {
-    color: #ff0000;
+    color: #3bd6dcf3;
     margin-left: 5px;
 }
 
@@ -68,12 +68,12 @@
   
 .paginationBttns a:hover {
     color: #ffffff;
-    background-color: #ff0000;
+    background-color: #3bd6dcf3;
 }
   
 .paginationActive a {
     color: #ffffff;
-    background-color: #ff0000;
+    background-color: #3bd6dcf3;
 }
   
 .paginationDisabled a {

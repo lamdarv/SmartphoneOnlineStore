@@ -1,0 +1,28 @@
+.d-container {
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #ffffff;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.d-container p {
+    text-align: justify;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: flex-end;
+    line-height: 30px;
+}
+
+.d-col {
+    height: 100px;
+}
+
+.bolded {
+    font-weight: bold;
+}
