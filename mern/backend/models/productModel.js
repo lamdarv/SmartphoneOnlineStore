@@ -264,7 +264,7 @@ const productSchema = new mongoose.Schema(
       image2: "/images/products/Vivo_V15/Vivo_V15_3.jpg",
       image3: "/images/products/Vivo_V15/Vivo_V15_4.jpg",
       countInStock: 5,
-      price: "3499000", 
+      price: "3899000", 
     }
   );
  
