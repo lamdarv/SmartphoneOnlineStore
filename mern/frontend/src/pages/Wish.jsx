@@ -45,7 +45,7 @@ const Wish = () => {
                             <span className='wish-quantity'>Quantity: 1</span>
                           </div>
                           <div className="wish-footer">
-                            <span className='wish-price'>${item.price}</span>
+                            <span className='wish-price'>IDR {item.price}</span>
                             <button onClick={() => removeItemHandler(item)}><FontAwesomeIcon icon={faTrashAlt} /></button>
                           </div>
                       </div>
